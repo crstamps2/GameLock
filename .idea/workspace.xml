@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cb9ada3-a9ab-4add-8466-294714c6e8c9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameLock/com/company/GameLock.class" afterPath="$PROJECT_DIR$/out/production/GameLock/com/company/GameLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameLock/com/company/GuessingDemo.class" afterPath="$PROJECT_DIR$/out/production/GameLock/com/company/GuessingDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameLock/com/company/GuessingDriver.class" afterPath="$PROJECT_DIR$/out/production/GameLock/com/company/GuessingDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GameLock/com/company/InteractiveGuessingGame.class" afterPath="$PROJECT_DIR$/out/production/GameLock/com/company/InteractiveGuessingGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLock.iml" afterPath="$PROJECT_DIR$/GameLock.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/GameLock.java" afterPath="$PROJECT_DIR$/src/com/company/GameLock.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/GuessingDriver.java" afterPath="$PROJECT_DIR$/src/com/company/GuessingDriver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameLock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameLock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/GameLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuessingDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GuessingDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GuessingDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -85,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/GuessingDriver.java" />
-        <option value="$PROJECT_DIR$/src/com/company/GameLock.java" />
         <option value="$PROJECT_DIR$/src/com/company/GuessingDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/GameLock.java" />
       </list>
     </option>
   </component>
@@ -278,12 +266,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508287285336</updated>
-      <workItem from="1508287286760" duration="1757000" />
+      <workItem from="1508287286760" duration="2355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1757000" />
+    <option name="totallyTimeSpent" value="2355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -339,16 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/GameLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GuessingDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -364,6 +342,16 @@
           <folding>
             <element signature="e#130#131#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GameLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

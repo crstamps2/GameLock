@@ -15,11 +15,19 @@ public class GameLock {
             dials[i] = (int)(Math.random() * 10);
         }
         this.goodGuesses = new int[numOfDials];
+        for(int i = 0; i < this.goodGuesses.length; i++){
+            //initialize each value as -1 since 0 can be a good value.
+            this.goodGuesses[i] = -1;
+        }
     }
 
     public GameLock(int[] combination){
         this.dials = combination;
         this.goodGuesses = new int[dials.length];
+        for(int i = 0; i < this.goodGuesses.length; i++){
+            //initialize each value as -1 since 0 can be a good value.
+            this.goodGuesses[i] = -1;
+        }
     }
 
     public void guessNumber(int number){
