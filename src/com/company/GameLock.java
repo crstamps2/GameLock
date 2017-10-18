@@ -1,6 +1,8 @@
 package com.company;
 
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class GameLock {
     private int[] dials;
@@ -12,26 +14,23 @@ public class GameLock {
         for(int i=0; i<dials.length; i++){
             dials[i] = (int)(Math.random() * 10);
         }
+        this.goodGuesses = new int[numOfDials];
     }
 
     public GameLock(int[] combination){
         this.dials = combination;
+        this.goodGuesses = new int[dials.length];
     }
 
     public void guessNumber(int number){
         boolean matchFound = false;
-        int[] array = new int[goodGuesses.length + 1];
-        for(int dial : dials){
-            if(dial == number){
-                System.arraycopy(goodGuesses, 0, array, 0, goodGuesses.length);
-                array[goodGuesses.length] = number;
+        for(int i = 0; i< dials.length; i++){
+            if(dials[i] == number){
+                goodGuesses[i] = number;
                 matchFound = true;
-                break;
             }
         }
-        if(matchFound){
-            goodGuesses = array;
-        } else {
+        if(!matchFound){
             incorrectGuesses--;
         }
     }
@@ -60,7 +59,21 @@ public class GameLock {
     }
 
     public boolean isLockOpen(){
-        return this.dials.length == this.goodGuesses.length;
+        if (this.dials == null) {
+            return false;
+        }
+        if (this.goodGuesses == null) {
+            return false;  // already know 'a' isn't null
+        }
+        if (this.dials.length != this.goodGuesses.length) {
+            return false;
+        }
+        for (int i = 0; i < this.dials.length; i++) {
+            if (this.dials[i] != this.goodGuesses[i]) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }

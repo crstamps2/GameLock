@@ -3,7 +3,7 @@ package com.company;
 public class GuessingDriver {
 
     public static void main(String[] args) {
-        InteractiveGuessingGame game = new InteractiveGuessingGame();
+        GuessingDemo game = new GuessingDemo();
         game.run();
     }
 }
